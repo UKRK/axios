@@ -5,7 +5,7 @@ const HttpsProxyAgent = require('https-proxy-agent');
 
 async function maintenance() {
   if (process.argv.length !== 4){
-    console.log('USAGE : node ax.js raw/proxy')
+    console.log('USAGE : node axios.js url raw/proxy')
     process.exit()
   }
   else{
